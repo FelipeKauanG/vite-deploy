@@ -33,10 +33,9 @@ function cena(){
     ground.position.y = -2
 
     
-
     //Sombras
     renderer.shadowMap.enabled = true
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap
+    renderer.shadowMap.type = THREE.PCFShadowMap
     ambientlight.castShadow = true
     ground.receiveShadow = true
     sphere.castShadow = true
